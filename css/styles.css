@@ -37,6 +37,9 @@ body{
     font-weight: 700;
 
 }
+.link:hover{
+    background-color: rgb(135, 204, 24);
+}
 /*--------------------------------------- section one end
 =============================================================================== */
 
@@ -80,6 +83,36 @@ padding-top: 10px;
 
 /* end  */
 
+/* article css */
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.top-title{
+    color: rgb(255, 255, 255);
+  text-align: center;
+    background-color: mediumblue;
+    border-radius: 5px;
+}
+.blog{
+    display: flex;
+}
+.blog-info{
+    margin-left: 20px;
+}
+.blog-image img{
+    width: 177px;
+    height: 117px;
+    margin: 20px;
+}
+.blog-author a{
+    text-decoration: none;
+    color: indigo;
+}
+
+
+/* article css end */
+
 .social-media{
 text-align: center;
 font-size: 30px;
@@ -87,6 +120,7 @@ padding-top: 20px;
 }
 
 .fotter-image{
+    margin-top: 100px;
   position: static;
   margin-left: 300px;
 }
