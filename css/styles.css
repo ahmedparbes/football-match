@@ -14,6 +14,7 @@ body{
    height: 550px;
    width: 1535px;
    padding-top: 8%;
+   margin-bottom: 68px;
 }
 .heading-color{
     color: white;
@@ -38,3 +39,37 @@ body{
 }
 /*--------------------------------------- section one end
 =============================================================================== */
+
+/* players css styleseet */
+.container{
+    display: flex;
+    justify-content: center;
+}
+.player{
+    border-radius: 20px;
+    box-shadow: 5px 5px 3px rgb(207, 207, 205);
+    height: 474px;
+    width: 330px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap:30px ;
+    grid-row-gap: 27px;
+}
+
+.player .player-banner img{
+    height: 256px;
+    width: 300px;
+}
+.player-banner img{
+padding-top: 10px;
+}
+.player-info{
+    height: 256px;
+    width: 300px;
+}
+.player-bio{
+    font-weight: 400;
+
+}
