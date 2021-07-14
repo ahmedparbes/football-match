@@ -83,7 +83,8 @@ padding-top: 10px;
 
 /* end  */
 
-/* article css */
+/* article css---------------------------------------
+---------------------- */
 .blogs{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -96,6 +97,7 @@ padding-top: 10px;
 }
 .blog{
     display: flex;
+    margin: 40px;
 }
 .blog-info{
     margin-left: 20px;
@@ -113,6 +115,7 @@ padding-top: 10px;
 
 /* article css end */
 
+/* fotter css start */
 .social-media{
 text-align: center;
 font-size: 30px;
@@ -136,4 +139,24 @@ margin-left: 200px;
 
 .copyright{
    text-align: center;
+}
+/* fotter css end */
+
+
+/* responsive for mobile devices */
+   
+@media only screen and (max-width: 688px){
+   
+
+    .section, .players, .blogs{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+       
+    }
+    .blogs{
+        flex-direction: column;
+    }
+    .players , .blogs{
+        flex-direction: column;
+    }
 }
