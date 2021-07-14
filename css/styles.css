@@ -44,6 +44,7 @@ body{
 .container{
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 .player{
     border-radius: 20px;
@@ -72,4 +73,13 @@ padding-top: 10px;
 .player-bio{
     font-weight: 400;
 
+}
+
+/* end  */
+.color{
+    background-color: maroon;
+}
+
+.copyright{
+   text-align: center;
 }
