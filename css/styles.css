@@ -47,7 +47,7 @@ body{
 }
 .player{
     border-radius: 20px;
-    box-shadow: 5px 5px 3px rgb(207, 207, 205);
+    box-shadow: 5px 5px 1px rgb(207, 207, 205);
     height: 474px;
     width: 330px;
 }
