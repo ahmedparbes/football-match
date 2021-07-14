@@ -58,6 +58,9 @@ body{
     grid-column-gap:30px ;
     grid-row-gap: 27px;
 }
+.player-name{
+    font-size: 28px;
+}
 
 .player .player-banner img{
     height: 256px;
@@ -76,6 +79,23 @@ padding-top: 10px;
 }
 
 /* end  */
+
+.social-media{
+text-align: center;
+font-size: 30px;
+padding-top: 20px;
+}
+
+.fotter-image{
+  position: static;
+  margin-left: 300px;
+}
+.fotter-image img{
+    height: 100px;
+width: 400px;
+margin-left: 200px;
+
+}
 .color{
     background-color: maroon;
 }
